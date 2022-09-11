@@ -9,11 +9,22 @@ Author: Mycodee
 ## Elements
 Main Configuration
 ```
-  discord: DiscordConfiguration
+  discord: Discord Configuration
 ```
+
 ---
+
 Discord Configuration
 ```
   token: String
   app_id: String
+```
+
+Database Configuration 
+```
+  host: String
+  port: Optional u32 DEFAULT 5432
+  user: Optional String DEFAULT "postgres"
+  password Optional String DEFAULT ""
+  database Optional String DEFAULT user
 ```
