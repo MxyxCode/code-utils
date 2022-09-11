@@ -1,4 +1,4 @@
 # Code-Utils
 ```
-  All Features have a named file in designs directory which they describe themself
+  All Features have a named file in designs directory which they describe themselves
 ```
