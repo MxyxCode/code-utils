@@ -35,6 +35,39 @@ Discord Events
 ```
 
 ## Elements
+Event Argument Kind
+```
+  Option(Option of EventArgumentKind)
+
+  String(String)
+  Boolean(Boolean)
+  Number(usize)
+  Array(Array of EventArgumentKind)
+  
+  GuildId(u64)
+  ChannelId(u64)
+  ThreadId(u64)
+  MessageId(u64)
+  
+  MemberId(u64)
+  UserId(u640)´
+  
+  Id(u64)
+  
+  Message(Message)
+  User(User)
+  Member(Member)
+  
+```
+----
+
+Event Argument 
+```
+  name: String
+  argument: EventArgumentKind
+```
+----
+
 Event Kind
 ```
   Custom Event {
